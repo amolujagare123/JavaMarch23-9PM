@@ -5,17 +5,17 @@ public class GreaterNumber {
     public static void main(String[] args) {
 
         int a = 100;
-        int b = 20;
+        int b = 200;
 
         if(a>b) {
             System.out.println("a is greater");
             System.out.println("a=" + a);
         }
-        else
+       else
             System.out.println("b is greater");
 
 
-        System.out.println("b="+b);
+        System.out.println("End of the program");
 
     }
 }
