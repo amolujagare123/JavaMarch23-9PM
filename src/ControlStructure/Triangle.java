@@ -6,7 +6,7 @@ public class Triangle {
 
         int a = 90;
         int b = -90;
-        int c = 90;
+        int c = 80;
 
         if(a+b+c==180 && a>0 && b>0 && c >0) {
             if (a == b && b == c)
