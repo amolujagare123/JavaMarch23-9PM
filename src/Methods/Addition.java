@@ -1,4 +1,4 @@
-package InheritanceDemo;
+package Methods;
 
 import ClassesNConstructors.MyClass;
 

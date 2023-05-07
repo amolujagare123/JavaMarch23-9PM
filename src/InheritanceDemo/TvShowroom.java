@@ -1,8 +1,8 @@
 package InheritanceDemo;
 
-public class TvShowroom {
+public /*final*/ class TvShowroom {
 
-    public void channels()
+    /*final */public void channels()
     {
         System.out.println("showroom channels");
     }
