@@ -2,25 +2,24 @@ package CollectionsDemo.ArrayListDemos;
 
 import java.util.ArrayList;
 
-public class ArrayListDemo1 {
+public class ArrayListSetMethodDemo {
 
     public static void main(String[] args) {
 
-        ArrayList al = new ArrayList();
-
-       // ArrayList<int> al = new ArrayList<>();
+        ArrayList<String> al = new ArrayList<>();
 
         al.add("amol");
         al.add("sandhya");
         al.add("buvana");
         al.add("ganesh");
         al.add("sathya");
-        al.add(12);
-        al.add(23.67);
-        al.add('d');
-        al.add(true);
 
-        System.out.println(al);
+        System.out.println("al="+al);
+
+        al.set(3,"aaaa");
+        System.out.println("al="+al);
+
+
 
 
     }
